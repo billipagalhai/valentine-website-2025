@@ -5,7 +5,7 @@
 const CONFIG = {
     // Your Valentine's name that will appear in the title
     // Example: "Jade", "Sarah", "Mike"
-    valentineName: "babyyy",
+    valentineName: "Adarsh",
 
     // The title that appears in the browser tab
     // You can use emojis! 💝 💖 💗 💓 💞 💕
@@ -23,8 +23,10 @@ const CONFIG = {
     questions: {
         first: {
             text: "Do you think i am funny?",                                    // First interaction
-            yesBtn: "definitely, aap to comedian ho",                                             // Text for "Yes" button
+            yesBtn: "yes very funny",                                             // Text for "Yes" button
             noBtn: "nahi tu pagal hai",                                               // Text for "No" button
+            secretAnswer: "definitely, aap to comedian ho"  // Hidden message
+
            
         },
         second: {
@@ -57,11 +59,11 @@ const CONFIG = {
     // Color scheme for the website
     // Use https://colorhunt.co or https://coolors.co to find beautiful color combinations
     colors: {
-        backgroundStart: "#ffafbd",      // Gradient start (try pastel colors for a soft look)
-        backgroundEnd: "#ffc3a0",        // Gradient end (should complement backgroundStart)
-        buttonBackground: "#ff6b6b",     // Button color (should stand out against the background)
-        buttonHover: "#ff8787",          // Button hover color (slightly lighter than buttonBackground)
-        textColor: "#ff4757"             // Text color (make sure it's readable!)
+        backgroundStart: "#FFCDC9",      // Gradient start (try pastel colors for a soft look)
+        backgroundEnd: "#FDACAC",        // Gradient end (should complement backgroundStart)
+        buttonBackground: "#FD7979",     // Button color (should stand out against the background)
+        buttonHover: "#FEEAC9",          // Button hover color (slightly lighter than buttonBackground)
+        textColor: "#F875AA"             // Text color (make sure it's readable!)
     },
 
     // Animation settings
