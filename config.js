@@ -15,7 +15,7 @@ const CONFIG = {
     // Find more emojis at: https://emojipedia.org
     floatingEmojis: {
         hearts: ['❤️', '💖', '💝', '💗', '💓'],  // Heart emojis
-        bears: ['🧸', '🐻']                       // Cute bear emojis
+        bears: ['🧸', '🐻', '😍', '😝', '💕', '🥰', '😘', '😋']                       // Cute bear emojis
     },
 
     // Questions and answers
@@ -52,8 +52,8 @@ const CONFIG = {
     // Messages that appear after they say "Yes!"
     celebration: {
         title: "Yay! I'm the luckiest person in the world! 🎉💝💖💝💓",
-        message: "ab aap do gift wrna katti",
-        emojis: "🎁💖🤗💝💋❤️💕"  // These will bounce around
+        message: "i love you very very very very very much!! muah 💋",
+        emojis: "🎁💖🤗💝💋❤️💕😘😋🥰😝😍"  // These will bounce around
     },
 
     // Color scheme for the website
@@ -71,8 +71,8 @@ const CONFIG = {
     animations: {
         floatDuration: "15s",           // How long it takes hearts to float up (10-20s recommended)
         floatDistance: "50px",          // How far hearts move sideways (30-70px recommended)
-        bounceSpeed: "1s",            // Speed of bouncing animations (0.3-0.7s recommended)
-        heartExplosionSize: 15         // Size of heart explosion effect (1.2-2.0 recommended)
+        bounceSpeed: "10s",            // Speed of bouncing animations (0.3-0.7s recommended)
+        heartExplosionSize: 30         // Size of heart explosion effect (1.2-2.0 recommended)
     },
 
    
